@@ -1,10 +1,12 @@
 .time {
     text-align: center;
     padding: 32px;
+    background-blend-mode: multiply;
 }
 
 .time h3 {
     font-size: 32px;
+    font-family: 'Prata';
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;

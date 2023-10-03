@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +6,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.times {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #6278F7;
+  border-bottom: 4px solid #6278F7;
+  display: inline-block;
+  padding-bottom: 24px;
+  margin: 32px 0;
+}
+
+h1,
+h2 {
+  font-family: 'Prata', serif;
 }

@@ -1,13 +1,19 @@
-.formulario {
+.formulario-container {
     display: flex;
     justify-content: center;
     margin: 80px 0;
+
 }
 
-.formulario form {
+.formulario-container .formulario {
     max-width: 80%;
-    background-color: #F2F2F2;
+    background: #F7F7F7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
     padding: 36px 64px;
-    box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+}
+
+.formulario-container .formulario h2 {
+    font-weight: 400;
+    font-size: 32px;
 }
